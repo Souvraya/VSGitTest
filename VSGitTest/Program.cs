@@ -10,7 +10,14 @@ namespace VSGitTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World");
+            Program crier = new Program();
+            crier.Say("Hello, World");
+            crier.Say("I have more news...");
             Console.ReadLine();
         }
+        void Say(string message)
+        {
+            Console.WriteLine(message);
+        }
+    }
 }
