@@ -12,6 +12,7 @@ namespace VSGitTest
         {
             Program crier = new Program();
             crier.Say("Hello, World");
+            crier.Say("I have more news...");
             Console.ReadLine();
         }
         void Say(string message)
